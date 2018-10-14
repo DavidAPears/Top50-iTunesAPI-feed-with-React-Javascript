@@ -10,7 +10,7 @@ class App extends Component {
 
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">iTunes API Feed</h1>
+          <h1 className="App-title">iTunes Top 50</h1>
         </header>
 
         <div>

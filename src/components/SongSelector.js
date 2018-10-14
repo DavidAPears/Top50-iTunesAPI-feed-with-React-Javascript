@@ -11,9 +11,6 @@ import SongDetail from '../components/SongDetail.js';
          chartPosition = {index}
          image = {song["im:image"][2].label}
          track = {song.link[1].attributes.href}
-
-
-
        />
      })
      return (

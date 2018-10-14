@@ -4,12 +4,12 @@ const SongDetail = function (props) {
   // if(!props.selectedSong) return null;
   return (
     <div className="results-box">
-      <p>#{props.chartPosition +1}</p>
-      <p>"{props.song}"</p>
-      <a href={props.track} target="_blank">*PLAY SONG HERE</a>
-      <p>Artist: {props.artist}</p>
-      {/* <p> {props.artist} </p> */}
+      <p><b>No.{props.chartPosition +1}</b></p>
       <img src={props.image}/>
+      <p>"{props.song}"</p>
+      <p>{props.artist}</p>
+      {/* <p> {props.artist} </p> */}
+      <audio id="myAudio" controls src={props.track} type="audio/ogg"></audio>
       <br></br>
     </div>
   )
